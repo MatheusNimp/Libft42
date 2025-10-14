@@ -6,13 +6,12 @@
 /*   By: maamaral <maamaral@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 10:14:02 by maamaral          #+#    #+#             */
-/*   Updated: 2025/09/09 10:14:02 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/08 16:22:18 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-        return (c + 32);
-    return (c);
+	if (c >= 'A' && c <= 'Z')
+		return (c + 32);
+	return (c);
 }

@@ -6,12 +6,12 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/07 15:56:14 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/07 15:56:14 by marvin           ###   ########.fr       */
+/*   Updated: 2025/10/08 16:06:42 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-char *ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t		i;
 	size_t		s1_size;

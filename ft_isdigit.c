@@ -6,12 +6,12 @@
 /*   By: maamaral <maamaral@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/07 14:51:49 by maamaral          #+#    #+#             */
-/*   Updated: 2025/09/07 14:51:49 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/08 15:53:57 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-int ft_isdigit(int n)
+int	ft_isdigit(int n)
 {
-    return (n >= '0' && n <= '9');
+	return (n >= '0' && n <= '9');
 }

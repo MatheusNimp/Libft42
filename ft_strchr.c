@@ -6,18 +6,18 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 19:31:22 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/09 19:31:22 by marvin           ###   ########.fr       */
+/*   Updated: 2025/10/08 16:05:35 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 char	*ft_strchr(const char *str, int c)
 {
-	int i;
+	int	i;
 
 	i = -1;
 	while (str[++i] != '\0')
 		if (str[i] == c)
-			return((char *)&str[i]);
-    if (c == '\0')
-        return ((char *)&str[i]);
-    return ((void *)0);
+			return ((char *)&str[i]);
+	if (c == '\0')
+		return ((char *)&str[i]);
+	return ((void *)0);
 }

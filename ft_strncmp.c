@@ -6,12 +6,12 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 10:52:59 by marvin            #+#    #+#             */
-/*   Updated: 2025/09/17 10:52:59 by marvin           ###   ########.fr       */
+/*   Updated: 2025/10/08 16:10:49 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-# include "libft.h"
+#include "libft.h"
 
-int ft_strncmp(const char *s1, const char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	while (n > 0)
 	{

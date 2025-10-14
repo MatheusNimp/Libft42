@@ -6,10 +6,10 @@
 /*   By: maamaral <maamaral@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 10:00:44 by maamaral          #+#    #+#             */
-/*   Updated: 2025/09/09 10:00:44 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/08 15:50:24 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    return (c >= 0 && c <= 127);
+	return (c >= 0 && c <= 127);
 }

@@ -6,15 +6,15 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/07 16:44:05 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/07 16:44:05 by marvin           ###   ########.fr       */
+/*   Updated: 2025/10/08 16:20:34 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
 size_t	ft_find_start(char const *s1, char const *set)
 {
-	size_t		i;
-	size_t		j;
+	size_t	i;
+	size_t	j;
 	int		found;
 
 	i = 0;
@@ -27,7 +27,7 @@ size_t	ft_find_start(char const *s1, char const *set)
 			if (s1[i] == set[j])
 			{
 				found = 1;
-				break;
+				break ;
 			}
 			j++;
 		}
@@ -44,7 +44,7 @@ size_t	ft_find_end(char const *s1, char const *set)
 {
 	size_t	i;
 	size_t	j;
-	int 	found;
+	int		found;
 
 	i = ft_strlen(s1);
 	while (i != 0)
@@ -55,8 +55,8 @@ size_t	ft_find_end(char const *s1, char const *set)
 		{
 			if (s1[i - 1] == set[j])
 			{
-			found = 1;
-			break;
+				found = 1;
+				break ;
 			}
 			j++;
 		}
@@ -69,10 +69,10 @@ size_t	ft_find_end(char const *s1, char const *set)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	i;
-	size_t	start;
-	size_t	end;
-	char	*trim;
+	size_t		i;
+	size_t		start;
+	size_t		end;
+	char		*trim;
 
 	i = 0;
 	start = ft_find_start(s1, set);

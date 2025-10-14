@@ -6,10 +6,10 @@
 /*   By: maamaral <maamaral@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 10:06:19 by maamaral          #+#    #+#             */
-/*   Updated: 2025/09/09 10:06:19 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/08 15:54:26 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    return (c >= 32 && c <= 126);
+	return (c >= 32 && c <= 126);
 }

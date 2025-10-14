@@ -6,10 +6,10 @@
 /*   By: maamaral <maamaral@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 15:13:40 by maamaral          #+#    #+#             */
-/*   Updated: 2025/09/09 15:13:40 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/08 15:53:11 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int ft_isalpha(int n)
+int	ft_isalpha(int n)
 {
-    return ((n >= 'A' && n <= 'Z') || (n >= 'a' && n <= 'z'));
+	return ((n >= 'A' && n <= 'Z') || (n >= 'a' && n <= 'z'));
 }

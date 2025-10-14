@@ -6,16 +6,16 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/06 21:04:56 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/06 21:04:56 by marvin           ###   ########.fr       */
+/*   Updated: 2025/10/08 15:49:16 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
-	size_t		i;
 	int		signal;
 	int		result;
+	size_t	i;
 
 	i = 0;
 	signal = 1;

@@ -6,12 +6,12 @@
 /*   By: maamaral <maamaral@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/09 10:09:08 by maamaral          #+#    #+#             */
-/*   Updated: 2025/09/09 10:09:08 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/08 16:22:59 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-int    ft_toupper(int c)
+int	ft_toupper(int c)
 {
-    if (c >= 'a' && c <= 'z')
-        return (c - 32);
-        return (c);
+	if (c >= 'a' && c <= 'z')
+		return (c - 32);
+	return (c);
 }
