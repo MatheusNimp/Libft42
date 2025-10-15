@@ -51,11 +51,12 @@ libft/
 
 ```bash
 git clone <REPOSITORY_URL>
-
+```
 2. Compile the library:
-
+```bash
 make
-
+```
 3. Include the library in your project:
-
+```bash
 #include "libft.h"
+```
