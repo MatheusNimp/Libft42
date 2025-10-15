@@ -26,17 +26,15 @@ Each function is implemented following **best practices in C programming**, focu
 
 
 
-Project Structure
-libft/
+Project: libft/
 ├── includes/
-│   └── libft.h
-├── srcs/
+│   └── libft.h         # Headers and function prototypes
+├── srcs/               # Implementation of functions
 │   ├── ft_strlen.c
 │   ├── ft_strjoin.c
 │   ├── ft_strtrim.c
-│   ├── ft_itoa.c
-│   └── ... (other functions)
-└── Makefile
+│   └── ft_itoa.c
+└── Makefile            # Compiles the library with 'make', generating libft.a
 
 
 
