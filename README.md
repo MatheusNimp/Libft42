@@ -1,33 +1,30 @@
-Libft
+# Libft
 
-Libft is a C library developed as part of the 42
- curriculum, aimed at recreating standard C functions and implementing additional utility functions useful for development.
+**Libft** is a C library developed as part of the 42 curriculum, aimed at recreating standard C functions and implementing additional utility functions useful for development.
 
-Objective
+## Objective
 
 The main goal of this project is to strengthen understanding of:
 
-String and memory manipulation in C;
+- String and memory manipulation in C
+- Low-level functions (`malloc`, `free`, `write`, etc.)
+- Safe error handling and robust function behavior
+- Modular and structured development in C
 
-Low-level functions (malloc, free, write, etc.);
-
-Safe error handling and robust function behavior;
-
-Modular and structured development in C.
-
-Features
+## Features
 
 The library includes implementations of common functions such as:
 
-String manipulation: ft_strlen, ft_strcpy, ft_strjoin, ft_strtrim, ft_substr, ft_strchr, ft_strncmp, and more.
+- **String manipulation:** `ft_strlen`, `ft_strcpy`, `ft_strjoin`, `ft_strtrim`, `ft_substr`, `ft_strchr`, `ft_strncmp`, and more
+- **Memory management:** `ft_memset`, `ft_memcpy`, `ft_memmove`, `ft_bzero`, etc.
+- **Type conversion:** `ft_itoa`, `ft_atoi`
+- **Utility functions:** safe memory allocation and parameter validation
 
-Memory management: ft_memset, ft_memcpy, ft_memmove, ft_bzero, etc.
+Each function is implemented following **best practices in C programming**, focusing on safety, efficiency, and compliance with the expected behavior of standard C functions.
 
-Type conversion: ft_itoa, ft_atoi.
+## Project Structure
 
-Utility functions: safe memory allocation and parameter validation.
 
-Each function is implemented following best practices in C programming, focusing on safety, efficiency, and compliance with the expected behavior of standard C functions.
 
 Project Structure
 libft/
@@ -42,27 +39,23 @@ libft/
 └── Makefile
 
 
-includes/libft.h — headers and function prototypes.
 
-srcs/ — function implementations.
 
-Makefile — compiles the library with make, generating libft.a.
+- `includes/libft.h` — headers and function prototypes  
+- `srcs/` — function implementations  
+- `Makefile` — compiles the library with `make`, generating `libft.a`
 
-How to Use
+## How to Use
 
-Clone the repository:
+1. Clone the repository:
 
+```bash
 git clone <REPOSITORY_URL>
 
-
-Compile the library:
+2. Compile the library:
 
 make
 
-
-Include the library in your project:
+3. Include the library in your project:
 
 #include "libft.h"
-
-
-And link with the libft.a file during compilation.
