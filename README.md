@@ -25,7 +25,7 @@ Each function is implemented following **best practices in C programming**, focu
 ## Project Structure
 
 
-
+```text
 Project: libft/
 ├── includes/
 │   └── libft.h         # Headers and function prototypes
@@ -35,7 +35,7 @@ Project: libft/
 │   ├── ft_strtrim.c
 │   └── ft_itoa.c
 └── Makefile            # Compiles the library with 'make', generating libft.a
-
+```
 
 
 
@@ -48,7 +48,7 @@ Project: libft/
 1. Clone the repository:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/MatheusNimp/Libft42
 ```
 2. Compile the library:
 ```bash
