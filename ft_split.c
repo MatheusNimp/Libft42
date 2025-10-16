@@ -6,7 +6,7 @@
 /*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 20:08:31 by maamaral          #+#    #+#             */
-/*   Updated: 2025/10/14 20:49:15 by maamaral         ###   ########.fr       */
+/*   Updated: 2025/10/15 14:55:28 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -88,11 +88,9 @@ char	**ft_split(char const *s, char c)
 {
 	char	**split;
 	int		word_c;
-	size_t	i;
 
 	if (!(s))
 		return ((void *)0);
-	i = 0;
 	word_c = word_count(s, c);
 	split = malloc((sizeof(char *)) * (word_c + 1));
 	if (!(split))

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/07 13:25:28 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 16:06:14 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:16:00 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:16:03 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

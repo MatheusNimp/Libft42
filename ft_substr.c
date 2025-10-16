@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/07 15:14:37 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 16:21:23 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:19:58 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:20:01 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

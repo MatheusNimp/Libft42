@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/16 12:44:37 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 16:09:18 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:18:02 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:18:06 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

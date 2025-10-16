@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/26 09:49:21 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 15:56:30 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:09:18 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:09:22 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

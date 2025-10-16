@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/26 09:34:29 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 15:55:51 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:10:07 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:10:10 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

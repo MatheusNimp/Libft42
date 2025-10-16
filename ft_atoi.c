@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 21:04:56 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 15:49:16 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:06:31 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:06:35 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"

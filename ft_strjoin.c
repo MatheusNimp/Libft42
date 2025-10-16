@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maamaral <maamaral@student.42porto.co      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/07 15:56:14 by marvin            #+#    #+#             */
-/*   Updated: 2025/10/08 16:06:42 by maamaral         ###   ########.fr       */
+/*   Created: 2025/10/15 21:17:12 by maamaral          #+#    #+#             */
+/*   Updated: 2025/10/15 21:17:16 by maamaral         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
